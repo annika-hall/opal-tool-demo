@@ -85,7 +85,7 @@ export function translateToNorwegian(text: string): string {
   
   // Check for exact match in dictionary
   if (englishToNorwegian[lowerText]) {
-    return englishToNorwegian[lowerText] ?? "";
+    return englishToNorwegian[lowerText];
   }
   
   // Try to translate word by word if no phrase match
