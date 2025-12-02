@@ -1,0 +1,22 @@
+{
+  "name": "opal-tool-demo",
+  "version": "1.0.0",
+  "description": "English to Norwegian translation tool",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "bin": {
+    "translate": "dist/cli.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/cli.js",
+    "translate": "node dist/cli.js"
+  },
+  "keywords": ["translation", "english", "norwegian", "translator"],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^24.10.1",
+    "typescript": "^5.9.3"
+  }
+}
